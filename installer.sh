@@ -18,7 +18,7 @@ if ! grep -q ".bashrcextended" .bashrc; then
 fi
 
 # download the bashrcextended file
-if ! curl -s -o .bashrcextended "https://www.mywebsite.com/.bashrcextended"; then
+if ! curl -s -o .bashrcextended "https://raw.githubusercontent.com/Johannett321/bashrcextended/master/.bashrcextended"; then
     echo "Error updating Bashrcextended"
     exit 1
 fi
