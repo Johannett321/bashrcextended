@@ -23,3 +23,4 @@ if ! curl -s -o .bashrcextended "https://raw.githubusercontent.com/Johannett321/
     exit 1
 fi
 echo "Bashrcextended updated!"
+source .bashrc
