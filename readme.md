@@ -4,6 +4,7 @@
 Run the following commands in your home directory
 ```
 curl "https://raw.githubusercontent.com/Johannett321/bashrcextended/master/installer.sh" > bashrcextendedupdater.sh
+chmod a+x ./bashrcextendedupdater.sh
 ./bashrcextendedupdater.sh
 source .bashrc
 ```
